@@ -28,4 +28,11 @@ describe 'Fixnum' do
     expect(18.to_human).to eq('eighteen')
     expect(19.to_human).to eq('nineteen')
   end
+
+  it 'should convert number < 100' do
+    expect(20.to_human).to eq('twenty')
+    expect(23.to_human).to eq('twenty three')
+    expect(40.to_human).to eq('forty')
+    expect(90.to_human).to eq('ninety')
+  end
 end
