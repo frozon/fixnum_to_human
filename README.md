@@ -6,5 +6,12 @@
 1_023.to_human # => 'One hundred and twenty three'
 ```
 
+## Before commit
+* run test
+* review code
+
+## Run test
+```rspec```
+
 ## Changelog
 - add Gemfile with rspec gem
