@@ -14,4 +14,5 @@
 ```rspec```
 
 ## Changelog
+- test on small number
 - add Gemfile with rspec gem
