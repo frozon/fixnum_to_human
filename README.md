@@ -14,5 +14,6 @@
 ```rspec```
 
 ## Changelog
+- convert small number to human
 - test on small number
 - add Gemfile with rspec gem

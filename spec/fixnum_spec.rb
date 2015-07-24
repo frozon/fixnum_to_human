@@ -1,5 +1,7 @@
 require 'rspec'
 
+require './fixnum_to_human.rb'
+
 describe 'Fixnum' do
   it 'should handle small numbers' do
     expect(0.to_human).to eq('zero')
