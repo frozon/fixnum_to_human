@@ -14,6 +14,7 @@
 ```rspec```
 
 ## Changelog
+- fix issue when converting negative numbers
 - add request arabic2english.rb script
 - convert number > 999
 - convert number < 1000

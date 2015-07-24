@@ -5,7 +5,10 @@ class Fixnum
     tens   = %w(wrong wrong twenty thirty forty fifty sixty seventy eighty ninety)
     bigs   = ['', 'thousand', 'million', 'billion']
 
-    if self < 20
+    if self < 0
+      ['minus', self.abs.to_human].join(' ')
+
+    elsif self < 20
       smalls[self]
 
     elsif self < 100

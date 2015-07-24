@@ -46,4 +46,9 @@ describe 'Fixnum' do
     expect(23_030.to_human).to eq('twenty three thousand thirty')
     expect(45_023_030.to_human).to eq('forty five million twenty three thousand thirty')
   end
+
+  it 'should convert negative number' do
+    expect(-1.to_human).to eq('minus one')
+  end
+
 end
