@@ -14,6 +14,7 @@
 ```rspec```
 
 ## Changelog
+- convert number < 1000
 - convert number < 100
 - convert number < 20
 - convert small number to human

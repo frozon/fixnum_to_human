@@ -35,4 +35,9 @@ describe 'Fixnum' do
     expect(40.to_human).to eq('forty')
     expect(90.to_human).to eq('ninety')
   end
+
+  it 'should convert number < 1000' do
+    expect(100.to_human).to eq('one hundred')
+    expect(999.to_human).to eq('nine hundred and ninety nine')
+  end
 end
