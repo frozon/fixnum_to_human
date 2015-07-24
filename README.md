@@ -14,6 +14,7 @@
 ```rspec```
 
 ## Changelog
+- convert number > 999
 - convert number < 1000
 - convert number < 100
 - convert number < 20
