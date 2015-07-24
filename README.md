@@ -14,6 +14,7 @@
 ```rspec```
 
 ## Changelog
+- add request arabic2english.rb script
 - convert number > 999
 - convert number < 1000
 - convert number < 100
